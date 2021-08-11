@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, #73EDD2, #5085DA);
+}
+
+.div1 {
+	height: 720px;
+	width: 650px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.div1 > div {
+	margin: 45px 30px 35px 30px;
+}
+
+.div2 {
+	font-size: 50px;
+	user-select: none;
+}
+
+.div4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.advice {
+	font-family: Cascadia Mono;
+	height: 70px;
+	width: 450px;
+	font-size: 28px;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px 0px 10px;
+	border: none;
+	border-bottom: 3px solid black;
+	outline: none;
+	text-align: center;
+}
+
+.add {
+	font-family: Cascadia Mono;
+	height: 70px;
+	width: auto;
+	font-size: 45px;
+	display: flex;
+	align-items: center;
+	padding: 3px 28px 3px 28px;
+	border-radius: 10px;
+	background-color: lightgreen;
+	user-select: none;
+}
+
+.add:hover {
+	cursor: pointer;
+	background-color: rgb(165, 243, 165);
+	color: black;
+}
+
+.div5 {
+	height: 384px;
+	overflow: auto;
+	margin: 30px 0px 0px 0px;
+}
+
+.fa {
+	color:red;
+}
+
+.fa:hover {
+	cursor: pointer;
+}
+
+.fa:active {
+	color: black;
+}
+
+.div5 > div {
+	font-family: Cascadia Mono;
+	height: 70px;
+	width: auto;
+	font-size: 28px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 10px 0px 10px;
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border: 3px solid silver;
+	border-radius: 10px;
+	user-select: none;
+}
+
+.div6 {
+	font-family: Cascadia Mono;
+	height: 70px;
+	width: auto;
+	font-size: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0px 10px 0px 10px;
+	justify-content: space-between;
+	user-select: none;
+}
+
+.button3 {
+	font-family: Cascadia Mono;
+	height: 50px;
+	width: auto;
+	font-size: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+	padding: 0px 8px 0px 8px;
+	user-select: none;
+}
+
+.button3:hover {
+	cursor: pointer;
+	background-color: rgb(245, 70, 70);
+	color: white;
+}
